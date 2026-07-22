@@ -22,7 +22,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-4 text-sm text-ink-muted max-w-sm leading-relaxed">
-              Data-driven tools and real-world software. Built by Rodrigo Seer.
+              Custom software, built for real businesses. By Rodrigo Seer.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
