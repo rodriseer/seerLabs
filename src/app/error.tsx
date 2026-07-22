@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 /**
  * Route-level error boundary. If a client component throws during render or
  * hydration, this shows a recoverable UI (with a retry) instead of a blank
@@ -34,9 +36,9 @@ export default function Error({
           <button type="button" onClick={reset} className="btn-primary">
             Try again
           </button>
-          <a href="/" className="btn-secondary">
+          <Link href="/" className="btn-secondary">
             Go home
-          </a>
+          </Link>
         </div>
       </div>
     </div>
